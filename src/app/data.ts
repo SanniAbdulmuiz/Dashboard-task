@@ -61,7 +61,7 @@ export const data: Data[] = [
     holes: 14,
     type: 'production',
     status: 'Inactive',
-    location: 'Anambra',
+    location: 'Abia',
     startDate: 'April 1, 2025',
   },
 ]
