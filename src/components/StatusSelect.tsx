@@ -14,7 +14,7 @@ interface StatusSelectProps {
   onChange?: (value: string) => void
 }
 
-// Define the background + text color per status
+// Define the background + text color per status on change/select
 const statusColors: Record<string, string> = {
   Active: 'bg-blue-100 text-blue-700 border border-blue-300',
   Inactive: 'bg-gray-100 text-gray-700 border border-gray-300',
