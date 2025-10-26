@@ -44,12 +44,13 @@ export default function ProjectTable({ data }: Props) {
         </TableHeader>
 
         {/* BODY */}
-        <TableBody>
+        <TableBody className='divide-y-0 space-y-3'>
           {projects.map((project, index) => (
             <TableRow
               key={index}
-              className='group relative hover:shadow-md transition-all duration-200 bg-white rounded-xl'
+              className='relative group hover:bg-gray-50 transition-all duration-300 rounded-lg shadow-[0_1px_3px_rgba(0,0,0,0.06)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.08)]'
               style={{
+                position: 'relative',
                 backgroundImage: `linear-gradient(to right, ${
                   colorMap[project.type]
                 } 4px, transparent 4px)`,
